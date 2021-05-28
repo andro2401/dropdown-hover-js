@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "RobotoCondensed", sans-serif;
+}
+
+header {
+  border-bottom: 2px solid #000;
+}
+
+header h1 {
+  margin-left: 20px;
+  font-size: 40px;
+}
+
+.my-input {
+  display: block;
+  width: 80%;
+  font-size: 20px;
+  padding: 10px;
+  margin: auto;
+  margin-top: 20px;
+  border: none;
+  border-radius: 20px 40px;
+  background: rgb(68, 184, 130);
+}
+.my-input:active {
+  border: none;
+}
+
+#top-stories {
+  width: 80%;
+  margin: auto;
+}
+
+.articles-flex {
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+article {
+  border: 1px solid black;
+  padding: 10px;
+  display: block;
+}
+
+.article-image1 {
+  background-image: url("../img/team1.png");
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+}
+.article-image2 {
+  background-image: url("../img/team2.png");
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+}
+.article-image3 {
+  background-image: url("../img/team3.png");
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+}
+
+.profile-menu {
+  list-style: none;
+  float: right;
+  margin-top: 40px;
+  margin-right: 30px;
+}
+.profile-menu a {
+  padding-bottom: 45px;
+}
+
+.submenu {
+  list-style: none;
+  padding: 0;
+  border: 1px solid #aaa;
+  background: white;
+  margin-top: 43px;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  position: absolute;
+  right: 10px;
+  display: none;
+}
+.submenu.active {
+  display: block;
+}
+
+.submenu a {
+  text-decoration: none;
+  padding: 10px 10px;
+  display: block;
+  color: #333;
+  font-weight: 600;
+}
+
+.submenu a:hover {
+  background: #eee;
+}
+
+#site-title {
+  display: inline-block;
+}
